@@ -6,31 +6,33 @@ import Header from "./Header";
 import Orders from "./Orders";
 import Checkout from "./Checkout";
 import OrderSuccess from "./OrderSuccess";
-import ProductDetails from "./ProductDetails"; // heloo
+import ProductDetails from "./ProductDetails"; //
 
 function App() {
+  console.log("Hello");
+
   return (
     <Router>
       <div className="app">
         <Switch>
           <Route path="/orders">
-            <Header/>
-            <Orders/>
+            <Header />
+            <Orders />
           </Route>
 
           <Route path="/checkout">
-            <Header/>
-            <Checkout/>
+            <Header />
+            <Checkout />
           </Route>
 
           <Route path="/ordersuccess">
-            <Header/>
-            <OrderSuccess/>
+            <Header />
+            <OrderSuccess />
           </Route>
 
           <Route path="/productdetails">
-            <Header/>
-            <ProductDetails/>
+            <Header />
+            <ProductDetails />
           </Route>
 
           {/* Default route should be at the bottom -- below */}
