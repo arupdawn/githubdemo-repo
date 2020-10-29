@@ -9,7 +9,7 @@ import OrderSuccess from "./OrderSuccess";
 import ProductDetails from "./ProductDetails"; //
 
 function App() {
-  console.log("Hello");
+  console.log("Hello World");
 
   return (
     <Router>
